@@ -20,4 +20,4 @@ Describe what you did to get the issue, and how to replicate it.
 ## Fixes
 Do you know what caused the issue? Are you aware of how to fix it?
 
-If you answer a *strong, bold, knowledgeble yes* to both then say. However if you are even the _tiniest_ bit unsure then don't. It's not helpful if you don't know what you're saying.
+If you answer a **strong, bold, knowledgeble yes** to both then say. However if you are even the _tiniest_ bit unsure then don't. It's not helpful if you don't know what you're saying.
