@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.Graphics;
 
 public class GameWindow extends JFrame {
     final static long serialVersionUID = 1l;
@@ -13,13 +14,13 @@ public class GameWindow extends JFrame {
         setVisible(true);
 
         canvas = new Canvas();
-        // Render render = new Render() {
-        //     public void draw(Graphics g) {
-        //         g.setColor(new Color(0, 0, 0));
-        //         g.drawRect(0, 0, 800, 600);
-        //     }
-        // };
-        // canvas.load(render);
+        Render render = new Render() {
+            public void draw(Graphics g) {
+                g.setColor(new Color(0, 0, 0));
+                g.drawRect(0, 0, 800, 600);
+            }
+        };
+        canvas.load(render);
         add(canvas);
 
         render();

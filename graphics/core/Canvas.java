@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class Canvas extends JPanel {
     final static long serialVersionUID = 1l;
@@ -9,7 +10,7 @@ public class Canvas extends JPanel {
      * A render is effectively a runnable which takes an extra argument (a Graphics instance) so that the programmer can define in that Render instance how to use this JPanel's graphics.
      */
     public void load(Render render) {
-        this.render = renderer;
+        this.render = render;
     }
 
     @Override
